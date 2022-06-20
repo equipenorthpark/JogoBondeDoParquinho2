@@ -28,6 +28,7 @@ public class Kiwi : MonoBehaviour
 
             Destroy(gameObject, 0.3f);
 
+            // Chama o método da classe SavePoints para armazenar os pontos acumulados
             SavePoints.acesso.totalPontos += Pontos;
         }
     }
